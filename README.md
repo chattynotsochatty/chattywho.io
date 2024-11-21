@@ -1,2 +1,0 @@
-# chattywho.io
-portfolio website
