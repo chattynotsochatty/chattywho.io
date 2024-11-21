@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+
+<h1 style="color: #219ebc;">Contact Me</h1>
+<form action="/submit" method="POST">
+  <label for="name" style="color: #219ebc;">NAME</label>
+  <input name="name" type="text" class="feedback-input" required/>
+  <label for="email" style="color: #219ebc;">EMAIL</label>
+  <input name="email" type="email" class="feedback-input"  required/>
+  <label for="comment" style="color: #219ebc;">Say Something!</label>
+  <input name="comment" type="text" class="feedback-input" required/>
+  <button type="submit" value="SUBMIT">SUBMIT</button>
+</form>
+
+<%- include("partials/footer.ejs") %>
